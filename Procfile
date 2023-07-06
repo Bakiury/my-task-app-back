@@ -1,1 +1,1 @@
-web: gunicorn bakiury-django-api.wsgi --log-file -
+web: gunicorn my_task_app_back.wsgi --log-file -
