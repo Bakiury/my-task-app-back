@@ -1,1 +1,1 @@
-web: gunicorn my_task_app_back.wsgi --log-file -
+web: gunicorn taskdrf.wsgi --log-file -
