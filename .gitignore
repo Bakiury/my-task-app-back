@@ -1,0 +1,28 @@
+# Ignorar archivos y directorios específicos
+
+# Archivos de configuración local
+settings_local.py
+
+# Base de datos
+db.sqlite3
+
+# Directorio de archivos estáticos recopilados
+staticfiles/
+
+# Directorio de archivos de medios cargados
+media/
+
+# Dependencias y entorno virtual
+venv/
+env/
+
+# Ignorar archivos y directorios generados por el sistema operativo
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de registro y salida
+*.log
+logs/
+*.out
